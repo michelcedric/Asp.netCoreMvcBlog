@@ -1,4 +1,6 @@
-﻿namespace AspNetCoreBlogTutorial.Data.Models
+﻿using System;
+
+namespace AspNetCoreBlogTutorial.Data.Models
 {
     public class Person
     {
@@ -6,6 +8,6 @@
 
         public string LastName { get; set; }
 
-        public string FirstName { get; set; }
+        public string FirstName { get; set; }      
     }
 }

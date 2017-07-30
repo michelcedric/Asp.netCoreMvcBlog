@@ -13,7 +13,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.2" />
   </ItemGroup>
   <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\AspNetCoreBlogTutorial.Data\AspNetCoreBlogTutorial.Data.csproj" />
   </ItemGroup>
-
 </Project>

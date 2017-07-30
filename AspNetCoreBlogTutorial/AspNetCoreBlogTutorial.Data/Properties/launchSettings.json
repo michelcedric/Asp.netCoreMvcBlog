@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "AspNetCoreBlogTutorial.Data": {
+      "commandName": "Project"      
+    }
+  }
+}

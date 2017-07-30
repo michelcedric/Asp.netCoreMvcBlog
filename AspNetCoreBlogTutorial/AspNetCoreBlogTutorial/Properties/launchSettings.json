@@ -1,4 +1,4 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -12,6 +12,7 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
+        "ConnectionStrings": "Data Source=(LocalDB)\\\\MSSQLLocalDB;Initial Catalog=Blog;Integrated Security=True",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
